@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: idroid;
+    src: url(/fontes/idroid.otf);
+}
+
+:root{
+    --cor0:#c5ebd6;
+    --cor1:#3ddc84;
+}
+body{
+    background-color:var(--cor0);
+    margin: 0%;
+}
+div{
+    background-color: white;
+    max-width: 800px;
+    min-width: 320px;
+    margin:auto;
+    padding: 15px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.418);
+    border-radius:0px 0px 10px 10px ;
+}
+header{
+    background-image: linear-gradient(to bottom, #3ddc84, #063d1e);
+    width: 100%;
+    margin: auto;
+    padding: 0%;
+    min-width: 320px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin:0%;
+    font-family:Bebas neue;
+    font-weight: normal;
+}
+
+header>p{
+    text-align: center;
+    color: white;
+}
+
+header nav{
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+.navegacao>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: unset;
+    transition-duration: 0.3s;
+} 
+
+li>a:hover{
+    background-color: #2fa866;
+    color: #063d1e;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #063d1e;
+    background-color: #3ddc84;
+    
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 10px;
+    text-align: justify;
+}
+
+h2{
+    font-family: idroid;
+   margin: 0%;
+}
+
+h3{
+    background-image: linear-gradient(to right,#3ddc84, #83e1ad, white);
+    font-family:idroid;
+}
+
+
+img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#and{
+    max-width: 350px;
+}
+
+section{
+    background-color: #83e1ad;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+section h4{
+    background-color: #063d1e;
+    color: white;
+    padding: 13px;
+    font-size: 1.1em;
+    border-radius: 10px 10px 0px 0px;
+    margin: -10px -10px -10px -10px;
+}
+
+section ul{
+    list-style-type: '\2714\00A0\00A0';
+    display:block;
+    columns: 2;
+}
+
+section p {
+    text-indent: 20px;
+}
+
+
+#video{
+    background-color: #063d1e;
+    padding: 20px;
+    margin: -15px;
+    padding-bottom: 56%;
+    position: relative;
+}
+
+#video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer > p{
+    text-align: center;
+}
